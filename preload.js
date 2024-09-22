@@ -1,5 +1,5 @@
 const { contextBridge } = require('electron');
 
 contextBridge.exposeInMainWorld('magicNumber', {
-    value: 72
+    value: 74
 });
